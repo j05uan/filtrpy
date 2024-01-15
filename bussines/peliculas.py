@@ -189,6 +189,7 @@ def editar_pelicula():
                     if op==6: 
                         fomatos=load_formatos_json()
                         listaa1=[ ]
+                        nactores=0
                         while (True):
                             print("---De los fomatos disponibles elija los fomatos: ")
                             print(fomatos)
@@ -199,9 +200,10 @@ def editar_pelicula():
                                     if formato["ingreseid"]==ingreseid:
                                         encontro=True
                                         if encontro==True:    
+                                            nactores+=1
                                             id = input("Ingrese identificacion: ")
                                             nombre=input("Ingrese el nombre del formato: ")
-                                            diccionaario = {
+                                            diccionario21 = {
                                                 nactores:{
                                                 "Identificacion" : id,
                                                 "Nombre" : nombre,

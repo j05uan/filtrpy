@@ -20,7 +20,7 @@ def menu_generos():
     limpiar_pantalla()
     print("---------GESTOR DE GENEROS-----------")
     print("1. Crear Genero")
-    print("2. Crear Genero")
+    print("2. Modificar  Genero")
     print("3. Listar Genero")
     print("4. Salir")      
     op=validar_opcion("Opcion: ",1,4)

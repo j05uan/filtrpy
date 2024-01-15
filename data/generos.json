@@ -1,3 +1,38 @@
 [
-  
+  {
+    "12": {
+      "Identificacion": "12",
+      "Nombre": "Accion"
+    }
+  },
+  {
+    "12": {
+      "Identificacion": "12",
+      "Nombre": "Terror"
+    }
+  },
+  {
+    "df": {
+      "Identificacion": "df",
+      "Nombre": "fds"
+    }
+  },
+  {
+    "eknr": {
+      "Identificacion": "eknr",
+      "Nombre": "eslknf"
+    }
+  },
+  {
+    "123": {
+      "Identificacion": "123",
+      "Nombre": "suspenso"
+    }
+  },
+  {
+    "9876": {
+      "Identificacion": "9876",
+      "Nombre": "terror"
+    }
+  }
 ]

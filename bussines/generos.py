@@ -48,9 +48,9 @@ def modificacion_genero():
                 print(genero)
                 print("¿Que opcion desea modificar del genero? ")
                 print( "1.id")
-                print("3.Nombre")
-                print("4.Salir")
-                op=validar_opcion("Opcion: ",1,4)
+                print("2.Nombre")
+                print("3.Salir")
+                op=validar_opcion("Opcion: ",1,3)
                 # limpiar_pantalla()
                 if op==1:
                     new_id=input("Ingrese la modificaion: ")
